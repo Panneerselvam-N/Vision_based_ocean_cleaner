@@ -18,7 +18,7 @@ layers to classify the given objects into any of the defined classes.
 
 ### STEP 1: Waste segregation  (Completed)
 We have classified upto 7 categories of objects which are floating above ocean.
-
+Categories:
 Waste : Plastics, Tyres, Woods, Combined(combination of all)\
 Non-waste: Ship, Person, Fish.
 
