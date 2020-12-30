@@ -5,7 +5,7 @@ from tensorflow.keras.preprocessing import image
 import numpy as np
 
 
-MODEL_PATH="model.h5"
+MODEL_PATH="model/model.h5"
 CLASSES1 = ['Waste','Non-waste']
 CLASSES2 = ['Combined','Fish','Person','Plastics','Ship','Tyres','Woods']
 model= load_model(MODEL_PATH)

@@ -1,0 +1,10 @@
+Flask
+gunicorn
+Jinja2
+Werkzeug
+numpy
+pandas
+tensorflow
+pillow
+imutils
+googledrivedownloader
