@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+ <head>
+    <title>Waste segregation</title>
+    <meta charset="UTF-8">
+    <style>
+      body
+      {
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        background-image:url("static/b3.jpg");
+
+      }
+      h1{
+        color:chartreuse;
+      }
+      h2{
+        color: cyan;
+      }
+      h3,form
+      {
+        color:red;
+      }
+    </style>
+ </head>   
+ <body>
+      <h1>Waste segregation</h1>
+     <h3>Upload New File</h3>
+     <form method=post enctype=multipart/form-data>
+       <input type=file name=image>
+       <input type=submit value=Upload>
+       <h2>Category : {{Category}}</h2> 
+       <h2>Type : {{Type}}</h2>
+
+     </form>
+     {%if img_loc%}
+     <img src="{{img_loc}}" alt="img" height="500" width="700">
+     {% endif %}
+  </body>
+</html>
